@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Profile */
+
+.my-profile {
+  height: 6vh;
+  width: 100%;
+  background-color: rgb(206, 206, 206);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.my-profile > a {
+  margin-right: 6vw;
+  text-decoration: none;
+  color: rgb(133, 133, 133);
+  font-size: 18px;
+  font-family: cursive, sans-serif;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+.my-profile > a:hover {
+  color: #273746;
+}
+.my-profile > a:active {
+  color: cadetblue;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  background-color: #212f3c;
+}
+.navbar-brand {
+  font-size: 22px;
+}
+/* Card */
+
+.container {
+  margin: 5vh auto;
+}
+.container > .row .card > img {
+  height: 200px;
+}
+.container > .row .card {
+  background-image: linear-gradient(rgb(224, 224, 224), white);
+  height: auto;
+  padding: 1px;
+  margin: 3vh auto;
+}

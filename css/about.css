@@ -1,0 +1,63 @@
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Profile */
+
+    .my-profile {
+      height: 6vh;
+      width: 100%;
+      background-color: rgb(206, 206, 206);
+      display: flex;
+      justify-content: end;
+      align-items: center;
+    }
+    .my-profile > a {
+      margin-right: 6vw;
+      text-decoration: none;
+      color: rgb(133, 133, 133);
+      font-size: 18px;
+      font-family: cursive , sans-serif;
+      font-weight: 400;
+      transition: all 0.3s ease;
+    }
+    .my-profile > a:hover {
+      color: #273746;
+    }
+    .my-profile > a:active {
+      color: cadetblue;
+    }
+
+    /* Navigation Bar */
+
+    .navbar {
+      background-color: #212F3C;
+    }
+    .navbar-brand {
+      font-size: 22px; 
+    }
+
+    /* About */
+    .about {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .about>.about-content h1 {
+      font-weight: bold;
+    }
+    .about>.about-content h1>span{
+      font-size: 28px;
+      color: rgb(80, 166, 200);
+    }
+    .about>div{
+      margin: 20px 50px;
+      width: 40%;
+    }
+    .about-img {
+      background-image: url(https://www.searchenginejournal.com/wp-content/uploads/2021/09/16-reasons-why-social-media-is-important-to-your-company-616d3200e6dc6-sej.png);
+      background-size: cover;
+      background-position: center;
+    }
